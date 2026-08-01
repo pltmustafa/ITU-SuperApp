@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "867888631976",
+    "project_id": "itu-superapp",
+    "storage_bucket": "itu-superapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867888631976:android:d8745934b48cf6819b329d",
+        "android_client_info": {
+          "package_name": "com.pltmustafa.ituapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNcPIj1nmUJpkR3KsVuyokDRXIEQmYKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

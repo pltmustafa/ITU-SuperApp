@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "ITU SuperApp",
+    "slug": "itu-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pltmustafa.ituapp",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "fetch"
+        ],
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "android": {
+      "package": "com.pltmustafa.ituapp"
+    },
+    "plugins": [
+      "expo-background-task",
+      "expo-secure-store",
+      "./withFmtPatch.js"
+    ]
+  }
+}
